@@ -1,0 +1,13 @@
+#welcome-section {
+	height: 100vh;
+}
+#nav-bar {
+	top: 0;
+	right: 0;
+	left: 0;
+	position: fixed;
+}
+/* Media Query */
+@media {
+
+}
