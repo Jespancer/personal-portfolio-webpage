@@ -7,42 +7,64 @@
   <meta name="keywords" content="freeCodeCamp,HTML,CSS">
   <meta name="author" content="Jespancer">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Personal Portfolio Webpage</title>
+  <title>Jespancer</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 
 <body>
   <nav id="navbar">
     <ul>
-      <li><a href="">Home</a></li>
-      <li><a href="">Portfolio</a></li>
-      <li><a href="">Contact</a></li>
+      <li><a href="#top" class="nav">Top</a></li>
+      <li><a href="#projects" class="nav">Portfolio</a></li>
+      <li><a href="#contact" class="nav">Contact</a></li>
     </ul>
   </nav>
   <section id="welcome-section">
-    <h1>Web Developer</h1>
+    <div>
+      <img src="https://pbs.twimg.com/profile_images/1055842700874932224/2A8BO73y_400x400.jpg" id="profile-pic" alt="Profile Picture">
+      <h1>Jespancer</h1>
+      <h2>Web Developer</h2>
+    </div>
   </section>
   <section id="projects">
-    <div class="project-tile">
-      <a href=""></a>
-    </div>
-    <div class="project-tile">
-      <a href=""></a>
-    </div>
-    <div class="project-tile">
-      <a href=""></a>
-    </div>
-    <div class="project-tile">
-      <a href=""></a>
+    <div id="container">
+      <h3>Portfolio</h3>
+      <div class="project-tile">
+        <h4 class="project-title">Tribute Page</h4>
+        <a href="https://codepen.io/jespancer/full/NOJxwg/" target="_blank"><img src="https://i.imgur.com/8bO3nVC.jpg" alt="Tribute Page" width="200"></a>
+      </div>
+      <div class="project-tile">
+        <h4 class="project-title">Survey Form</h4>
+        <a href="https://codepen.io/jespancer/full/Jeoeve/" target="_blank"><img src="https://i.imgur.com/S1DkQIg.jpg" alt="Survey Form" width="200"></a>
+      </div>
+      <div class="project-tile">
+        <h4 class="project-title">Product Landing Page</h4>
+        <a href="https://codepen.io/jespancer/full/JeXRdM/" target="_blank"><img src="https://i.imgur.com/YeL4tA4.jpg" alt="Product Landing Page" width="200"></a>
+      </div>
+      <div class="project-tile">
+        <h4 class="project-title">Technical Documentation Page</h4>
+        <a href="https://codepen.io/jespancer/full/NEjomV/" target="_blank"><img src="https://i.imgur.com/cqJA796.jpg" alt="Technical Documentation Page" width="200"></a>
+      </div>
+      <a href="https://codepen.io/jespancer/" target="_blank" id="show-all">Show all</a>
     </div>
   </section>
   <section id="contact">
-  	<form>
-  		<input type="email">
-  	</form>
+    <div>
+      <form>
+        <label>Get in touch:</label>
+        <input type="email" placeholder="Enter your Email" id="email">
+        <input type="submit" id="submit">
+      </form>
+      <div class="links">
+        <a href="https://github.com/Jespancer" target="_blank" id="profile-link"><i class="fab fa-github"></i></a>
+        <a href="https://www.jespancer.com/" target="_blank"><i class="fas fa-link"></i></a>
+        <a href="https://twitter.com/Jespancer" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
   </section>
   <footer>
-  	<a href="" id="profile-link"></a>
+    <p>&copy; Jespancer 2018</p>
   </footer>
 </body>
 
